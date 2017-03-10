@@ -1,7 +1,7 @@
 Project proposal
 -----------------
 Project title
-	TBD: 
+	TBD: "My Virtual Fridge"
 Project description
 	Utilizing Voice recognition to determine what recipes can be made with food currently in fridge
 Team members
@@ -12,7 +12,7 @@ Team members
 	Ashmy Selvamony
 
 Sketch of final report
-	Application that uses voice recognition to input data. Application focuses on using the ingredients you currently have in your fridge to make a meal. Using food2fork we can use AJAX calls to select the specific ingredients we have. Then the api displays the different recipes we can make using only the ingredients we currently have. Possible extra functionality will be additional recipes with extra ingredients suggested. 
+	Application that uses voice recognition to input data. Application focuses on using the ingredients you currently have in your fridge to make a meal. Using food2fork we can use AJAX calls to select the specific ingredients we have. Then the api displays the different recipes we can make using only the ingredients we currently have. Possible extra functionality will be additional recipes with extra ingredients suggested. All ingredients will be stored in a firebase database requiring user authentication. This will let you view what ingredients you have in your fridge at any time from any source. When you make a recipe, ingredients will automatically be removed from the virtual fridge. When you come back to the app to make your next meal, you won't have to re-add the ingredients you still have in the fridge. You will be able to manually delete items as well. When you go shopping, you will be able to add ingredients to your fridge in real time via voice or text.
 
 APIs to be used
 	food2fork API

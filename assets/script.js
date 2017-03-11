@@ -32,9 +32,9 @@ $(".btn").on("click" , function() {
 
 event.preventDefault();
 
-var input = $("#mainInput").val().trim();
+var input = $(".form-control").val().trim();
 
-$("#mainInput").val("");
+$(".form-control").val("");
 
 database.ref().push({
 

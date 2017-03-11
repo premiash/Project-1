@@ -30,11 +30,11 @@ database.ref().on("child_added", function(snapshot) {
 
   	var items = $('<div>');
 
-  	var checkbox =  $('<input type="checkbox">');
+  	var checkbox = $('<input type="checkbox">');
 
   	items.attr( 'data-buttons' , firstArray[i]);
 
-  	items.text(snapshot.val().Input);
+  	items.text(snapshot.val().firstArray[i]);
 
     container.addClass('item-button');
 
@@ -57,7 +57,7 @@ $("#add-button").on("click" , function() {
 
 event.preventDefault();
 
-var input = $(".form-control").val().trim();
+var input = $(".form-control").val();
 
 $(".form-control").val("");
 

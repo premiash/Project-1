@@ -1,14 +1,49 @@
-.container-fluid {
+body {
+	background: url("");
+	background-size: cover; 
+}
+
+.navbar {
 	height: 75px;
+
 }
 
 .navbar-brand {
 	font-size: 32px;
+	margin-top: 10px;
+}
+
+.dropdown-toggle {
+	margin-top: 10px;
+}
+
+.form-control {
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+a {
+	margin-top: 10px;
+}
+
+button.btn {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+#headerbox {
+	background-color: orange;
+	text-align: center;
+	font-weight: bolder;
+	padding: 10px;
+	color: #ffffff;
+
 }
 
 div.scroll {
     background-color: #ffffff;
-    width: 500px;
+    width: 300px;
     height: 600px;
     overflow: scroll;
 }
@@ -17,28 +52,8 @@ ul {
 	list-style-type: none;
 }
 
-.speech {
-	border: 1px solid #DDD; 
-	width: 300px; 
-	padding: 0; 
-	margin: 0
+
+button #ingredientbutton {
+	align-content: center;
 }
-
-.speech input {
-	border: 0; 
-	width: 240px; 
-	display: inline-block; 
-	height: 30px;
-}
-
-.speech img {
-	float: right; 
-	width: 25px; 
-	margin-top: 2px;
-}
-
- button.btn btn-default {
- 	margin-top: 15px;
- }
-
 

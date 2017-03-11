@@ -23,12 +23,14 @@ database.ref().on("child_added", function(snapshot) {
 
   console.log(firstArray);
 
+  
+
 });
 
 
 
 
-$(".btn").on("click" , function() {
+$("#add-button").on("click" , function() {
 
 event.preventDefault();
 
